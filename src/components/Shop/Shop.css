@@ -1,0 +1,18 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 265px;
+  padding-left: 100px;
+  padding-top: 120px;
+}
+
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-right: 80px;
+}
+
+.cart-container{
+  background-color: #FFE1B3;
+  padding: 0 20px;
+}
